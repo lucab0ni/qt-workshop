@@ -21,7 +21,7 @@ OTHER_FILES += \
 RESOURCES += \
     application-qml.qrc
 
-unix: QMAKE_CXXFLAGS_DEBUG += -fprofile-arcs -ftest-coverage
+unix: QMAKE_CXXFLAGS += -fprofile-arcs -ftest-coverage -O0
 
 include(../common.pri)
 include(../messenger/messenger.pri)

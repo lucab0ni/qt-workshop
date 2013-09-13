@@ -17,6 +17,6 @@ unix {
     LIBS += -L$$OUT_PWD/../messenger/
     PRE_TARGETDEPS += $$OUT_PWD/../messenger/libmessenger.a
 
-    QMAKE_LFLAGS_DEBUG += -fprofile-arcs
+    QMAKE_LFLAGS += -fprofile-arcs
 }
 

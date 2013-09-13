@@ -17,6 +17,6 @@ unix {
     LIBS += -L$$OUT_PWD/../application-qml/
     PRE_TARGETDEPS += $$OUT_PWD/../application-qml/libapplication-qml.a
 
-    QMAKE_LFLAGS_DEBUG += -fprofile-arcs
+    QMAKE_LFLAGS += -fprofile-arcs
 }
 

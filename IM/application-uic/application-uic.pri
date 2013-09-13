@@ -17,6 +17,6 @@ unix {
     LIBS += -L$$OUT_PWD/../application-uic/
     PRE_TARGETDEPS += $$OUT_PWD/../application-uic/libapplication-uic.a
 
-    QMAKE_LFLAGS_DEBUG += -fprofile-arcs
+    QMAKE_LFLAGS += -fprofile-arcs
 }
 
