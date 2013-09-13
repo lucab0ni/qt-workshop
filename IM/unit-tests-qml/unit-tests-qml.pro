@@ -16,3 +16,6 @@ OTHER_FILES += \
     tst_button.qml \
     tst_send_message.qml
 
+include(../common.pri)
+include(../application-qml/application-qml.pri)
+

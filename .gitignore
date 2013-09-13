@@ -10,4 +10,7 @@ build
 # Eclipse user settings
 .settings
 
+*.~
+*~
+
 
