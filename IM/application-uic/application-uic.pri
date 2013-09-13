@@ -19,4 +19,3 @@ unix {
 
     QMAKE_LFLAGS += -fprofile-arcs
 }
-
